@@ -41,7 +41,7 @@ public class CallSpy implements ClassFileTransformer {
             e.printStackTrace();
         } finally {
             if (ct != null) {
-                //ct.detach();
+                ct.detach();
             }
         }
 
